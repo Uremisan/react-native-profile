@@ -81,9 +81,7 @@ const styles = StyleSheet.create({
         borderRadius: 100,
     },
     textContainer: {
-        flex: 0.5,
-       
-       
+        flex: 0.5,   
     },
 
     text: {
@@ -95,13 +93,12 @@ const styles = StyleSheet.create({
     textHeader: {
         color: 'gray',
         fontSize:20,
-        fontStyle: 'italic',   
+          
     },
      
     textLabel: {
         color: "#1d87fb",
-        fontSize: 18,
-        fontStyle:'italic', 
+        fontSize: 18, 
         marginBottom: 4, 
            
      },
@@ -109,16 +106,13 @@ const styles = StyleSheet.create({
         fontSize: 18,
         color: '#36454F',  
         borderBottomColor: "#bec5cc",
-        borderBottomWidth: 0.2,
-        fontStyle: 'italic', 
-          
+        borderBottomWidth: 0.2,    
     },
 
 
     textContent:{
         fontSize: 18,
-        color: '#36454F',
-        fontStyle: 'italic',   
+        color: '#36454F', 
     },
     line : {
         width : '100%',
@@ -130,7 +124,8 @@ const styles = StyleSheet.create({
         flex: 0.1,
         borderBottomColor: '#bec5cc',
         borderBottomWidth: 0.4,
-        alignItems: 'center',    
+        alignItems: 'center', 
+        paddingTop:20,   
     },
     button: {
         width:300,
@@ -147,8 +142,6 @@ const styles = StyleSheet.create({
         color: "white",
         fontSize: 18,
         textTransform: "uppercase",
-        fontStyle:'italic',
-        
       },
 
 });
